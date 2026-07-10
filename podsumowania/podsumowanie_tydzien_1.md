@@ -29,3 +29,9 @@
    - Część z wygenerowanych testów jednostkowych nie przechodziło. Problemem okazał się być wcześniej wspomniany model Gemini. Po zmianie na model od Anthropic, testy zostały poprawione i pomyślnie zaliczone.
    
 - Rozpocząłem prace nad systemem wykrywającym spam we wiadomościach
+
+# Piątek
+
+- Tworzę projekt ML polegający na wykrywaniu spamu oraz smshingu. Aplikacja postawiona jest we Flasku. Jak dotąd udało mi sie osiągnąć średnie 95% accuracy oraz precision modelu. Użyłem LogisticRegression w celu maksymalizacji prezycji i dokładności. Na dzień dzisiejszy udało się stworzyć działający model, wraz z podstawowym frontendem. W przyszłości dodam opcję analizy danych oraz baze to składowania danych. Końcowo projekt zostanie zdockeryzowany, oraz napisany zostanie bashowy skrypt który automatycznie wykona całą konfigurację za użytkownika.
+
+- Zainstalowałem silnik Dockera, wraz z PostgreSQLem, pgAdminem oraz DBeaverem
